@@ -1,7 +1,8 @@
 {
   "name": "commands-manager",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
+  "type": "module",
   "description": "Brings the command line experience to the new level by grouping and running commands like a boss",
   "repository": "akgondber/commands-manager",
   "author": {
@@ -9,25 +10,23 @@
     "email": "rushan_oline@mail.ru",
     "url": "https://github.com/akgondber"
   },
-  "main": "dist/index.js",
+  "main": "index.js",
   "files": [
     "dist"
   ],
   "bin": {
-    "commands-manager": "dist/cli.js",
-    "comgr": "dist/cli.js",
-    "cmgr": "dist/cli.js"
+    "commands-manager": "cli.js",
+    "comgr": "cli.js",
+    "cmgr": "cli.js"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.16.0",
-    "bili": "^5.0.5",
     "jest": "^27.3.1",
     "prettier": "^2.5.1"
   },
   "scripts": {
     "prettify": "prettier --write .",
-    "test": "jest",
-    "bl": "bili"
+    "test": "jest"
   },
   "dependencies": {
     "cac": "^6.7.12",
