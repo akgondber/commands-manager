@@ -60,7 +60,7 @@ cli
     consola.success(`Commands registered in the "${group}" group:\n`, commands);
   });
 
-cli.command("viewAll", "View commands in all groups").action(() => {
+cli.command("viewAll", "View commands in all groups").alias("viewall").action(() => {
   const allCommands = manager.viewAll();
   consola.success("All commands:\n", allCommands);
 });
