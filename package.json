@@ -1,6 +1,6 @@
 {
   "name": "commands-manager",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "license": "MIT",
   "type": "module",
   "description": "Brings the command line experience to the new level by grouping and running commands like a boss",
@@ -12,7 +12,9 @@
   },
   "main": "index.js",
   "files": [
-    "dist"
+    "index.js",
+    "cli.js",
+    "lib/"
   ],
   "bin": {
     "commands-manager": "cli.js",
