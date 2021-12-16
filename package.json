@@ -1,8 +1,7 @@
 {
   "name": "commands-manager",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
-  "type": "module",
   "description": "Brings the command line experience to the new level by grouping and running commands like a boss",
   "repository": "akgondber/commands-manager",
   "author": {
