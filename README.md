@@ -81,6 +81,5 @@ Options:
 
 MIT © [Rushan Alyautdinov](https://github.com/akgondber)
 
-
 [npm-image]: https://badge.fury.io/js/commands-manager.svg
 [npm-url]: https://npmjs.org/package/commands-manager

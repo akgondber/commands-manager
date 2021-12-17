@@ -1,6 +1,6 @@
 {
   "name": "commands-manager",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "license": "MIT",
   "type": "module",
   "description": "Brings the command line experience to the new level by grouping and running commands like a boss",
@@ -34,7 +34,7 @@
     "cac": "^6.7.12",
     "conf": "^10.1.1",
     "consola": "^2.15.3",
-    "execa": "^6.0.0",
+    "execa": "^5.1.1",
     "micromatch": "^4.0.4",
     "ramda": "^0.27.1"
   }
