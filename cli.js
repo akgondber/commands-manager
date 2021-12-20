@@ -22,7 +22,7 @@ cli
   })
   .option("-p, --priority [priority]", "Priority for a command")
   .action((cmd, options) => {
-    const extraOptions = R.pick("priority", options);
+    const extraOptions = R.pick(["priority"], options);
     manager.addCommandToGroup(cmd, options.group, extraOptions);
     consola.success(
       `A command "${cmd}" was added to the "${options.group}" group.`
@@ -84,7 +84,6 @@ cli
   )
   .action(async (options) => {
     let executor;
-    console.log("PATT IS ", options.pattern);
 
     if (options.cmd && options.pattern) {
       throw new Error(
